@@ -6,7 +6,7 @@ import Footer from './User/components/Footer'
 
 //components for roles
 import Admin from './Admin'  
-import User from './User'  //is component main jo index.jsx hogi wo isky liye as a home page ayegi yani main
+import User from './User'  //is component main jo index.jsx hogi wo isky liye as a home page ayegi 
 import Guest from './Guest'
 
 

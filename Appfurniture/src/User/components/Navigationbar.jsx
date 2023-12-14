@@ -19,6 +19,8 @@ export default function Navigationbar() {
     const {state,dispatch} = useContext(logincontext)
 
 
+
+
     return (
         <>
             <Navbar expand="lg" >
@@ -45,8 +47,10 @@ export default function Navigationbar() {
                             <CartOffCanvas/>
                             <Link className='nav-link' to="/"><button className='btn btn-outline-dark ' onClick={() => {
                                 dispatch({
-                                    type: "LOGOUT"
+                                    type: "LOGOUT",
                                 })
+                                
+
                             }}>SignOut</button></Link>
                         </Nav>
                     </Navbar.Collapse>
